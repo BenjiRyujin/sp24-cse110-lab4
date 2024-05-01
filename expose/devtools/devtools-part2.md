@@ -1,0 +1,1 @@
+1. The bug was that the calculateSum() function took in strings as parameters which led to concatenation of strings rather than addition of numbers. Therefore, something like calculateSum(1,2) would output '12' instead of 3.
