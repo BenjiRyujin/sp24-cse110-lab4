@@ -1,1 +1,2 @@
 1. The bug was that the calculateSum() function took in strings as parameters which led to concatenation of strings rather than addition of numbers. Therefore, something like calculateSum(1,2) would output '12' instead of 3.
+2. I would fix the code by ensuring that num1 and num2 are treated as numbers which are added, rather than strings to be concatenated through using parseInt() on each parameter (num1 and num2). This makes sure the numbers are added together as numbers rather than concatenanted as strings. Screenshot of the code is in expand subdirectory.
